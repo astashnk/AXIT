@@ -1,0 +1,83 @@
+#tab{
+width: 100vw;
+height: 100vh;
+background-color: rgb(255, 255, 255);}
+
+.tabs{
+width: 1172px;
+margin: 0 auto;
+box-sizing: border-box;
+background-color: rgb(255, 255, 255)}
+
+.tabs__buttons{padding-top: 90px;}
+
+.tabs__buttons__text{
+text-decoration: none;
+font-family: 'Open Sans';
+font-size: 14px;
+line-height: 19px;
+text-transform: uppercase;
+color: #333333;}
+
+.tabs__button1,
+.tabs__button2,
+.tabs__button3{
+display: inline-block;
+width: 203px;
+height: 40px;
+text-align: center;
+box-sizing: border-box;
+padding-top: 10px;}
+
+.tabs__line{
+border-bottom: 1px solid #C6CBCD;
+width: 564px;
+height: 39,5px;}
+
+.tabs__button1{
+border-left: 1px solid #C6CBCD;
+border-top: 1px solid #C6CBCD;
+border-right: 1px solid #C6CBCD;
+border-radius: 5px 5px 0px 0px}
+
+.tabs__button2{border-bottom: 1px solid #C6CBCD;}
+.tabs__button3{border-bottom: 1px solid #C6CBCD;}
+
+.tabs__box__headers{
+margin-left: 100px;
+margin-bottom: 27px;}
+
+.tabs__main-header{
+height: 124px;
+font-family: 'Open Sans', sans-serif;
+font-size: 30px;
+line-height: 41px;
+display: flex;
+align-items: center;}
+
+.tabs__under-header-text{
+font-family: 'Raleway';
+font-size: 18px;
+line-height: 21px;
+margin-right: 30px;}
+
+.tabs__download-button {width: 270px;
+height: 58px;
+font-family: 'Open Sans';
+font-weight: 600;
+font-size: 18px;
+margin-top: 10px;
+background-color: #EC7979;
+border: none;
+color: #ffffff;}
+
+.tabs__buttons,
+.tabs__box{
+display:flex;}
+
+.tabs__box{
+width: 1170px;
+height: 501px;
+border-left: 1px solid #C6CBCD;
+border-bottom: 1px solid #C6CBCD;
+border-right: 1px solid #C6CBCD;}
