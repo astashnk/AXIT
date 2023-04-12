@@ -1,15 +1,13 @@
 #tab{
 width: 100vw;
-height: 100vh;
 background-color: rgb(255, 255, 255);}
 
 .tabs{
 width: 1172px;
 margin: 0 auto;
 box-sizing: border-box;
-background-color: rgb(255, 255, 255)}
-
-.tabs__buttons{padding-top: 90px;}
+background-color: rgb(255, 255, 255);
+margin-bottom: 90px;}
 
 .tabs__buttons__text{
 text-decoration: none;
