@@ -3,7 +3,7 @@ width: 100vw;
 background-color: rgb(255, 255, 255);}
 
 .tabs{
-width: 1172px;
+width: 1170px;
 margin: 0 auto;
 box-sizing: border-box;
 background-color: rgb(255, 255, 255);
@@ -29,7 +29,7 @@ padding-top: 10px;}
 
 .tabs__line{
 border-bottom: 1px solid #C6CBCD;
-width: 564px;
+width: 565px;
 height: 39,5px;}
 
 .tabs__button1{
@@ -76,6 +76,7 @@ display:flex;}
 .tabs__box{
 width: 1170px;
 height: 501px;
+box-sizing: border-box;
 border-left: 1px solid #C6CBCD;
 border-bottom: 1px solid #C6CBCD;
 border-right: 1px solid #C6CBCD;}
