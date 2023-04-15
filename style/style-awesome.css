@@ -3,12 +3,11 @@ margin: 0;}
 
 #awesome {
 width: 100vw;
-height: 100vh;
 background-color: rgb(255, 255, 255);}
 
 .about{
 width: 1170px;
-height: 665px;
+height: 600px;
 box-sizing: border-box;
 margin: 0 auto;
 text-align: center;
@@ -17,6 +16,7 @@ background-color: rgb(255, 255, 255)}
 .about__header-text{
 margin: 0;
 padding-bottom: 50px;
+font-weight: 400;
 font-size: 36px;
 font-family: 'Raleway', sans-serif;}
 
@@ -27,7 +27,8 @@ border-bottom: 1px solid #EC7979;}
 
 .about__under-separator-text{
 font-size: 18px;
-font-family: 'Raleway', sans-serif;
+font-family: 'Raleway';
+font-weight: 400;
 color: #86878B;}
 
 .blocks{width: 100%;
@@ -55,11 +56,12 @@ margin-top: 24px;}
 margin-top: 14px;}
 
 .blocks__header{
-margin-top: 50px;
+margin-top: 40px;
 font-size: 24px;
 font-family: 'Open Sans', sans-serif;}
 
 .blocks__text{
 font-size: 18px;
+font-weight: 400;
 font-family: 'Raleway', sans-serif;}
 
