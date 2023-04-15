@@ -5,9 +5,10 @@ background-color: rgb(255, 255, 255);}
 .tabs{
 width: 1170px;
 margin: 0 auto;
+margin-top: 80px;
 box-sizing: border-box;
 background-color: rgb(255, 255, 255);
-margin-bottom: 90px;}
+margin-bottom: 100px;}
 
 .tabs__buttons__text{
 text-decoration: none;
@@ -56,6 +57,7 @@ align-items: center;}
 .tabs__under-header-text{
 font-family: 'Raleway';
 font-size: 18px;
+font-weight: 400;
 line-height: 21px;
 margin-right: 30px;}
 
