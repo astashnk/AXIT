@@ -5,10 +5,10 @@ background-color: rgb(255, 255, 255);}
 .tabs{
 width: 1170px;
 margin: 0 auto;
-margin-top: 80px;
+margin-top: 50px;
 box-sizing: border-box;
 background-color: rgb(255, 255, 255);
-margin-bottom: 100px;}
+margin-bottom: 80px;}
 
 .tabs__buttons__text{
 text-decoration: none;
