@@ -1,0 +1,35 @@
+header{
+height: 75px;
+box-sizing: border-box;
+background-color: black;
+display: flex;
+justify-content: space-between;}
+
+.header__logos{width: 200px;}
+
+.header__logo{
+display: inline-block;
+font-family: 'Open Sans';
+font-weight: 500;
+font-size: 40px;
+margin-top: 10px;}
+
+.white{margin-left: 115px;
+color: white;}
+
+.pink{color:#EC7979;}
+
+.header__buttons{
+display: inline-block;
+margin-right: 180px;
+width: 550px;
+display: flex;
+justify-content: space-between;}
+
+.header__navigation{
+color: white;
+font-family: 'Open Sans';
+font-weight: 400;
+text-decoration: none;
+font-size: 13px;
+padding-top: 30px;}
