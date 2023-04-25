@@ -23,7 +23,7 @@ font-family: 'Raleway', sans-serif;}
 .about__separator{
 margin: 0 auto;
 width: 170px;
-border-bottom: 1px solid #EC7979;}
+border: 1px solid #EC7979;}
 
 .about__under-separator-text{
 font-size: 18px;
