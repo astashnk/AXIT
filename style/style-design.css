@@ -35,7 +35,7 @@ text-align: center;}
 
 .design__download-button{
 box-sizing: border-box;
-width: 270px;
+width: 370px;
 height: 60px;
 color: #FFFFFF;
 background: none;
@@ -47,7 +47,7 @@ line-height: 25px;
 text-align: center;
 margin-top: 70px;
 position: relative;
-left: calc(50% - 135px);}
+left: calc(50% - 185px);}
 
 .design__download-button:hover{
 border: 2px solid #EC7979;
