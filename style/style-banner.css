@@ -1,0 +1,121 @@
+#banner{
+width: 100%;
+height: 1026px;
+background-image: 
+linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/image.png');;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+justify-content: center;}
+
+
+.banner__logo-white,
+.banner__logo-pink{
+display: inline-block;
+font-family: 'Open Sans';
+font-weight: 500;
+font-size: 66px;}
+
+.banner__logo-white{color: white;}
+
+.banner__logo-pink{color:#EC7979;}
+
+.banner__box{
+margin-top: 200px;
+width: 1170px;
+display: flex;
+justify-content: space-between;}
+
+.banner__header-text{
+margin-top: 60px;
+margin-bottom: 60px;
+font-family: 'Raleway';
+font-weight: 500;
+font-size: 48px;
+line-height: 56px;
+color: #FFFFFF;}
+
+.banner__separator{
+width: 170px;
+border: 1px solid #FFFFFF;
+margin-left: 0;}
+
+.banner__under-separator-text{
+font-size: 18px;
+font-family: 'Raleway';
+font-weight: 400;
+color: #ffffff;
+margin-top: 50px;}
+
+.banner__download-button{
+box-sizing: border-box;
+width: 270px;
+height: 60px;
+color: #FFFFFF;
+background: none;
+border: 2px solid #FFFFFF;
+font-family: 'Open Sans';
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+margin-top: 50px;}
+
+.banner__download-button:hover{
+border: 2px solid #EC7979;
+color: #EC7979;}
+
+.banner__download-button:active{
+background: #AB4949;
+border: 2px solid #AB4949;
+color: #FFFFFF;}
+
+.banner__headers,
+.banner__form{
+display: inline-block;}
+
+.banner__forms{width: 470px;
+height: 390px;
+background-color: #FFFFFF;
+border-radius: 10px 10px 0px 0px;}
+
+.banner__forms-header{
+font-family: 'Open Sans';
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+padding-top: 40px;
+padding-bottom: 50px;
+margin-top: 0;}
+
+span{color: #EC7979;}
+
+.banner__forms__submit-button{width: 470px;
+height: 60px;
+background-color: #EC7979;
+border: none;
+border-radius: 0px 0px 10px 10px;
+font-family: 'Open Sans';
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+color: #FFFFFF;}
+
+.banner__forms-input{
+height: 210px;
+display: flex;
+flex-direction: column;
+position: relative;
+left: calc(50% - 185px);}
+
+.banner__forms-first {
+border: none;
+border-bottom: 1px solid #BDBDBD;
+width: 370px;}
+
+.first{font-family: 'Open Sans';
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #BDBDBD;height: calc(210px/3);}
