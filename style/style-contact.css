@@ -1,0 +1,72 @@
+#contact{
+width: 100vw;
+display: flex;
+justify-content: center;}
+
+.contact__text{
+width: 1170px;}
+
+.contact__header-text{
+margin: 0;
+margin-top: 90px;
+padding-bottom: 50px;
+font-weight: 400;
+font-size: 36px;
+text-align: center;
+font-family: 'Raleway', sans-serif;}
+
+.contact__separator{
+margin: 0 auto;
+width: 170px;
+border: 1px solid #EC7979;}
+
+.contact__under-separator-text{
+font-size: 18px;
+font-family: 'Raleway';
+font-weight: 400;
+text-align: center;
+margin-bottom: 90px;}
+
+.contact__sendmessage-button{
+box-sizing: border-box;
+width: 370px;
+height: 60px;
+color: #FFFFFF;
+background: none;
+background: #EC7979;
+border: 2px solid #EC7979;
+font-family: 'Open Sans';
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 80px;
+position: relative;
+left: calc(50% - 185px);}
+
+.contact__form{display: flex;
+justify-content: space-between;
+height: 200px;}
+
+.contact__forms{
+display: flex;
+flex-direction: column;}
+
+.thin{height: calc(200px/3);}
+.wide{height: 100%; width: 49%;}
+.contact__forms-wide{width: 100%;
+padding-bottom: 135px;}
+.contact__forms-thin{width: 100%;}
+.contact__forms{width: 49%;}
+
+.contact__forms-thin, .contact__forms-wide {
+border: none;
+border-bottom: 1px solid #BDBDBD;}
+
+.thin, .wide{font-family: 'Open Sans';
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #BDBDBD;}
+
