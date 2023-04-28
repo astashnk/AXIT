@@ -1,0 +1,89 @@
+body{margin: 0;}
+
+#form{width: 100vw;
+height: 985px;}
+
+.form__main-header{
+margin: 0;
+padding-bottom: 20px;
+padding-top:70px;
+padding-left: 140px;
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 30px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #371030;}
+
+.form__background {
+width: 100%;
+height: 650px;
+background-image: url(bg.png);
+background-repeat: no-repeat;
+background-size: cover;}
+
+.form__pic{transform: rotate(10deg);
+position: relative;
+top: -80px;}
+
+.form__box{
+display: flex;
+justify-content: space-between;
+width: 810px;
+height: 350px;
+background: #FBF7F6;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+border-radius: 15px;
+position: relative;
+top: -460px;
+left: calc(50% - 810px/2)}
+
+.form__inputs{display: inline-block;
+padding-left: 40px;}
+
+.max{display: block;}
+
+.forms__box-pic{
+border-radius: 0px 15px 15px 0px;}
+
+.form__second-header{
+margin-top: 30px;
+margin-bottom: 10px;
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: 0.04em;
+color: #371030;}
+
+.form__input{height: 12%;
+border: none;
+border-bottom: 1px solid #371030;
+background: none;
+color: blue;}
+.max{width: 96%;}
+.mini{width: 46.6%;}
+
+::placeholder{
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.04em;
+color: #371030;}
+
+.form__button{
+margin-top: 30px;
+width: 324px;
+height: 55px;
+font-family: 'Montserrat';
+font-weight: 900;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.04em;
+color: #9A3C48;
+border: none;
+background: #FFB0BA;
+box-shadow: 3px 3px 0px 3px #DE8E98;
+border-radius: 100px;}
