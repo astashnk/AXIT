@@ -3,10 +3,9 @@ width: 100vw;}
 
 .customers{
 width: 1170px;
-height: 630px;
 margin: 0 auto;
 box-sizing: border-box;
-margin-bottom: 50px;}
+padding-bottom: 40px;}
 
 .customers__boxex{
 width: 1170px;}
@@ -92,3 +91,60 @@ padding-left: 30px;}
 .customers__boxes{
 display: flex;
 justify-content: space-between;}
+
+.customers__dots{display: none;}
+
+@media (max-width:1170px){
+.customers{width: 992px;}
+.customers__header-text{font-size: 24px;
+padding-bottom: 40px;}
+.customers__separator{width: 142px;}
+.customers__under-separator-text{margin-top: 30px;
+font-size: 14px;}
+.customers__box{width: 318px;
+height: 310px;
+margin-bottom: 6;}
+.customers__text{font-size: 14px;}
+.customers__triangle{
+border-left: 14px solid transparent;
+border-right: 14px solid transparent;}
+.customers__photo{width: 63px;
+height: 63px;
+margin-top: 26px;}
+.customers__name{font-size: 18px;
+padding-top: 36px;}
+.customers__position{font-size: 14px;
+padding-top: 12px;}
+.customers__photo-text{padding-left: 25px;}}
+
+@media (max-width:1024px){
+.customers{width: 288px;
+display: flex;
+flex-wrap: wrap;}
+.customers__header-text{margin-top: 60px;
+text-align: center;}
+.customers__separator{width: 134px;}
+.customers__under-separator-text{
+font-size: 13px;
+text-align: center;
+margin-bottom: 30px;}
+.customers__boxes{
+width: 288px;
+flex-wrap: wrap;}
+.customers__box{width: 288px;
+height: 316px;}
+.Davis, .Cooper {display: none;}
+.customers__dots{display: block;
+font-size: 10px;
+width: 110px;
+display: flex;
+justify-content: space-between;
+color: #86878B;
+position: relative;
+left: calc(50% - 55px);}
+.customers__photo{width: 57px;
+height: 57px;
+margin-top: 20px;}
+.customers__name{font-size: 14px;
+padding-top: 30px;}
+.customers__position{font-size: 13px;}}
