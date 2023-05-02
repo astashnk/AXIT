@@ -8,7 +8,6 @@ justify-content: center;}
 width: 1170px;
 display: flex;
 justify-content: space-between;
-padding-left: 10px;
 box-sizing: border-box;}
 
 .socialmedia__info{
@@ -25,7 +24,6 @@ font-family: 'Raleway';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
-line-height: 20px;
 color: #86878B;
 margin-bottom: 0px;}
 
@@ -39,4 +37,27 @@ justify-content: space-between;}
 color: #CCCCCC;;
 font-size: 55px;}
 
+@media (max-width:1170px){
+.socialmedia__box{width: 992px;}
+.icon-one{font-size: 46px;}
+.socialmedia__header{font-size: 18px;
+margin-bottom: 10px;}
+.socialmedia__under-header-text{font-size: 14px;
+margin-top: 0;}
+#socialmedia{height: 105px;}
+.socialmedia__icons{margin-top: 30px;}}
 
+@media (max-width:1024px){
+.socialmedia__box{width: 288px;
+flex-wrap: wrap;}
+#socialmedia{height: 240px;}
+.socialmedia__header{
+margin-top: 40px;
+margin-bottom: 20px;
+text-align: center;}
+.socialmedia__under-header-text{
+text-align: center;
+margin-top: 0;
+line-height: 20px;}
+.icon-one{font-size: 18px;}
+.socialmedia__icons{margin-top: 0;}}
