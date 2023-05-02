@@ -3,6 +3,14 @@ height: 75px;
 box-sizing: border-box;
 background-color: black;
 display: flex;
+justify-content: center;}
+
+.fa-sharp.fa-solid.fa-bars {display: none;
+font-size: 28px;}
+
+.header__container{
+width: 1170px;
+display: flex;
 justify-content: space-between;}
 
 .header__logos{width: 200px;}
@@ -14,22 +22,35 @@ font-weight: 500;
 font-size: 40px;
 margin-top: 10px;}
 
-.white{margin-left: 115px;
-color: white;}
+.white{color: white;}
 
 .pink{color:#EC7979;}
 
 .header__buttons{
 display: inline-block;
-margin-right: 180px;
 width: 550px;
 display: flex;
-justify-content: space-between;}
+justify-content: space-around;}
 
 .header__navigation{
 color: white;
 font-family: 'Open Sans';
 font-weight: 400;
 text-decoration: none;
-font-size: 13px;
+font-size: 14px;
 padding-top: 30px;}
+
+@media (max-width:1170px){
+.header__container{width: 992px;}
+.header__logos{margin-left: 115px;}
+.header__buttons{justify-content: space-around;}}
+
+@media (max-width:1024px){
+.header__container{width: 288px;}
+.fa-sharp.fa-solid.fa-bars{display: inline;
+margin-top: 15px;}
+.header__buttons{display: none;}
+.header__logos{margin-left: 0;}
+header{height: 56px;}
+.header__logo{font-size: 32px;
+margin-top: 7px;}}
