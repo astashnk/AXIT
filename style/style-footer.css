@@ -21,3 +21,15 @@ font-size: 18px;
 line-height: 21px;
 color: rgba(255, 255, 255, 0.5);
 text-align: center;}
+
+@media (max-width:1170px){
+.icon-two{font-size: 32px;
+padding-top: 50px;}
+.footer__icons{width: 450px;}
+.footer__under-icons-text{font-size: 14px;}}
+
+@media (max-width:1024px){
+.icon-two{font-size: 18px;
+padding-top: 50px;}
+.footer__icons{width: 288px;}
+.footer__under-icons-text{padding-top: 10px;}}
