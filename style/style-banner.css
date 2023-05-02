@@ -1,6 +1,6 @@
 #banner{
 width: 100%;
-height: 1026px;
+height: 1000px;
 background-image: 
 linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/image.png');;
 background-repeat: no-repeat;
@@ -33,7 +33,8 @@ font-family: 'Raleway';
 font-weight: 500;
 font-size: 48px;
 line-height: 56px;
-color: #FFFFFF;}
+color: #FFFFFF;
+width: 660px;}
 
 .banner__separator{
 width: 170px;
@@ -45,7 +46,8 @@ font-size: 18px;
 font-family: 'Raleway';
 font-weight: 400;
 color: #ffffff;
-margin-top: 50px;}
+margin-top: 50px;
+width: 270px;}
 
 .banner__download-button{
 box-sizing: border-box;
@@ -86,7 +88,7 @@ font-size: 24px;
 line-height: 33px;
 text-align: center;
 padding-top: 40px;
-padding-bottom: 50px;
+padding-bottom: 10px;
 margin-top: 0;}
 
 span{color: #EC7979;}
@@ -112,10 +114,62 @@ left: calc(50% - 185px);}
 .banner__forms-first {
 border: none;
 border-bottom: 1px solid #BDBDBD;
-width: 370px;}
+width: 370px;
+height: 70px;}
 
-.first{font-family: 'Open Sans';
+.banner__forms-first::placeholder {
+font-family: 'Open Sans';
 font-weight: 400;
 font-size: 14px;
 line-height: 19px;
 color: #BDBDBD;height: calc(210px/3);}
+
+@media (max-width:1170px){
+#banner{height: 768px;}
+.banner__logo-white,
+.banner__logo-pink{font-size: 56px;}
+.banner__headers{margin-left: 115px;}
+.banner__header-text{width: 450px;
+font-size: 36px;
+line-height: 42px;
+margin-top: 40px;}
+.banner__box{margin-top: 130px;
+width: 992px;}
+.banner__forms{width: 398px;}
+.banner__forms__submit-button{width: 398px;}
+.banner__forms-first{width: 298px;}
+.banner__forms-input{left: calc(50% - 149px);}
+.banner__forms-header{font-size: 18px;}
+.banner__separator{width: 115px;}
+.banner__under-separator-text{font-size: 14px;
+margin-top: 30px;
+width: 185px;}
+.banner__download-button{width: 183px;
+height: 50px;
+margin-top: 30px;}}
+
+@media (max-width:1024px){
+.banner__box{width: 288px;
+margin-top: 85px;}
+.banner__headers{margin: 0;}
+.banner__header-text{width: 288px;
+text-align: center;
+margin-top: 0;}
+.banner__logos{display: none;}
+.banner__separator{width: 134px;
+margin: 0 auto;}
+.banner__under-separator-text{width: 288px;
+text-align: center;}
+.banner__download-button{width: 288px;
+margin-bottom: 56px;}
+.banner__box{flex-wrap: wrap;}
+#banner{height: fit-content;}
+.banner__forms{width: 288px;
+height: 321px;}
+.banner__forms__submit-button{width: 288px;
+margin-bottom: 50px;}
+.banner__forms-first{width: 240px;}
+.banner__forms-input{left: calc(50% - 120px);}
+.banner__forms-header{font-size: 14px;
+padding-top: 20px;
+margin-bottom: 10px;}}
