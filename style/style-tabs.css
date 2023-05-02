@@ -1,11 +1,12 @@
 #tab{
 width: 100vw;
-background-color: rgb(255, 255, 255);}
+background-color: rgb(255, 255, 255);
+display: flex;
+justify-content: center;}
 
 .tabs{
 width: 1170px;
-margin: 0 auto;
-margin-top: 50px;
+margin-top: 80px;
 box-sizing: border-box;
 background-color: rgb(255, 255, 255);
 margin-bottom: 80px;}
@@ -82,3 +83,48 @@ box-sizing: border-box;
 border-left: 1px solid #C6CBCD;
 border-bottom: 1px solid #C6CBCD;
 border-right: 1px solid #C6CBCD;}
+
+@media (max-width:1170px){
+.tabs{width: 992px;}
+.tabs__main-header{font-size: 24px;
+height: 89px;
+margin: 0;}
+.tabs__box__headers{margin-left: 84px;
+margin-bottom: 0;}
+.tabs__under-header-text{font-size: 14px;
+width: 480px;
+margin-bottom: 0;}
+.tabs__download-button{width: 230px;
+margin-top: 30px;}
+.tabs__button1,
+.tabs__button2,
+.tabs__button3{width: 172px;}
+.tabs__box__img{width: 385px;
+height: 385px;}
+.tabs__box{height: 386px;
+width: 992px;
+display: flex;
+justify-content: space-between;}}
+
+@media (max-width:1024px){
+.tabs__box__img{display: none;}
+.tabs{width: 288px;
+margin-top: 50px;
+margin-bottom: 60px;}
+.tabs__box{width: 288px;
+display: flex;
+justify-content: center;}
+.tabs__main-header{font-size: 18px;
+width: 242px;
+line-height: 20px;
+text-align: center;}
+.tabs__box__headers{margin: 0 auto;}
+.tabs__under-header-text{font-size: 13px;
+line-height: 15px;
+width: 242px;
+text-align: center;
+margin-right: 0;}
+.tabs__download-button{width: 242px;
+height: 50px;
+margin-top: 20px;}
+.tabs__line{display: none;}}
